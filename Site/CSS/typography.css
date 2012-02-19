@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	color:#000;
+	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	font-weight:normal;
+}
+
+h1 a { color: #000; text-decoration: none; }  
+
+h2 {  
+    color: #000  
+    font-family: "Gil Sans MT", Helvetica, Arial, sans-serif;  
+    font-size: 30px;
+	font-style:italic;
+}  
+
+
+h3 {
+	color:#000;
+	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	font-style:italic;
+}
+
+h4 {  
+    color: #CCC  
+    font-family: "Gil Sans MT", Helvetica, Arial, sans-serif;  
+    font-size: 30px;
+	font-style:italic;
+} 
+
+h4 a { color: #CCC; text-decoration: none; }  
+
+/* Paragraph styling */  
+  
+p {  
+    color: #000;  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 12px;  
+}  

@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('reset.css');  
+@import url('typography.css');  
+
+body{
+	background:url(../Images/background.jpg);
+	margin:auto;
+	width:70%;
+}
+
+div#header{
+	width:407px;
+	height:115px;
+}
+
+div#search_bar{
+	background:url(../Images/search_bar.png);
+	width:927px;
+	height:141px;
+	
+}
+
+div#search_bar-content{
+	margin: 10px auto 0px auto;  
+    width: 800px;  
+}  
+	
+form#search-form {  
+    float: right;  
+    width: 200px;
+	
+}
+
+form#search-form input[type="text"] {  
+    background: url(../Images/search_field.png) no-repeat;  
+    border:none;  
+    height:32px;   
+    width:162px;
+	padding-left:50px;
+	margin-top:50px;
+	font-size:16px;
+}
+
+
+form#search-form input[type="submit"] {  
+    display: none;  
+} 
+
+div#nav_bar {      
+    position: relative;  
+    width: 953px;
+	left:-11px;
+	
+}  
+
+ul#tabs {  
+    margin-top: 30px;  
+    position: absolute;    
+    top: -65px;  
+}  
+  
+ul#tabs li {  
+    background: url(../Images/navbar_sprite2.png) no-repeat;
+    float: left;  
+    height: 50px;    
+    width: 200px;  
+}  
+  
+ul#tabs li a {  
+    display: block;  
+    height: 100%;  
+    text-indent: -9000px;  
+    width: 100%;  
+}  
+
+ul#tabs li#Home {  
+    background-position: 0px 0px;  
+    width:200px;  
+}  
+  
+ul#tabs li#Home:hover {  
+    background-position: 0px -62px;  
+}  
+  
+ul#tabs li#Home.current, ul#tabs li#Home:active {  
+    background-position: 0px -123px;  
+}  
+
+ul#tabs li#Featured {  
+    background-position: -202px 0px;  
+      
+}  
+  
+ul#tabs li#Featured:hover {  
+    background-position: -202px -62px;  
+}  
+  
+ul#tabs li#Featured.current, ul#tabs li#Featured:active {  
+    background-position: -202px -123px;  
+} 
+
+ul#tabs li#Events {  
+    background-position: -402px 0px; 
+	width:170px;
+      
+}  
+  
+ul#tabs li#Events:hover {  
+    background-position: -402px -62px;  
+}  
+  
+ul#tabs li#Events.current, ul#tabs li#Events:active {  
+    background-position: -402px -123px;  
+} 
+
+ul#tabs li#Vision {  
+    background-position: -573px 0px; 
+	width:159px;
+      
+}  
+  
+ul#tabs li#Vision:hover {  
+    background-position: -573px -62px;  
+}  
+  
+ul#tabs li#Vision.current, ul#tabs li#Vision:active {  
+    background-position: -573px -123px;  
+} 
+
+ul#tabs li#Contact {  
+    background-position: -732px 0px; 
+	width:220px;
+      
+}  
+  
+ul#tabs li#Contact:hover {  
+    background-position: -732px -62px;  
+}  
+  
+ul#tabs li#Contact.current, ul#tabs li#Contact:active {  
+    background-position: -732px -123px;  
+} 
+
+div#featured_panel{
+	background: url(../Images/featured_panel.png); 
+	width:941px;
+	height:228px;
+	position:relative;
+	top:13px;
+	left:-9px;
+	
+}
+
+div#featured_panel-content p{
+	position:relative;
+	left:40px;
+	padding-top:20px;
+}
+
+div#category{
+	position:relative;
+	float:right;
+	width:270px;
+	height:485px;
+	padding-top:50px;
+}
+
+ul#cat{
+	position:absolute;
+	width:305px;
+}
+
+ul#cat li{
+	background:url(../Images/category_menu.png);
+	float:right;
+	height:65px;
+	width:305px;
+}
+	
+ul#cat li a{
+	display: block;  
+    height: 100%;  
+    text-indent: -9000px;  
+    width: 100%;  
+}
+
+ul#cat li#Categories{
+	background-position:0px 0px;
+	width:305px;
+}
+
+ul#cat li#Running{
+	background-position:0px -71px;
+}
+
+ul#cat li#Swimming{
+	background-position:0px -139px;
+}
+
+ul#cat li#Stretching{
+	background-position:0px -213px;
+}
+
+ul#cat li#Dieting{
+	background-position:0px -280px;
+}
+
+div#blog{
+	position:absolute;
+}
+
+div#blog img{
+	padding-top:50px;
+}
+
+div#blog-content{
+	background: url(../Images/blog_tag2.png) no-repeat;
+	
+	
+}
+
+div#blog-content h4{
+	position:relative;
+	top:13px;
+	left:50px;
+}
+
+div#blog-content blockquote{
+	background:url(../Images/blog_content.png) no-repeat;
+	width:532px;
+	height:213px;
+	padding-top:25px;
+	position:relative;
+	left:33px;
+	top:-22px;
+	z-index:-1;
+	
+}
+
+div#blog-content p#meta{
+	padding-top:30px;
+	position:relative;
+	left:50px;
+	top:-8px;
+	color: #CCC; 
+    font-family: "Gil Sans MT", Helvetica, Arial, sans-serif;  
+	font-style:italic;
+}
+
+	
